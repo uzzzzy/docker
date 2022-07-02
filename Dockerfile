@@ -1,7 +1,8 @@
-FROM node:carbon
+FROM node:alpine
+
 
 # Create app directory
-WORKDIR /usr/src/docker-react-sample
+WORKDIR '/var/www/html/dev/dockapp'
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND
